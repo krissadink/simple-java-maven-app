@@ -26,10 +26,5 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
-        stage('Farewell') {
-            steps {
-                echo 'Good bye!'
-            }
-        }
     }
 }
